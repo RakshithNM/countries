@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #011627;
+  text-align: center;
+  background: #011627;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+
+#app > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#app > div > .card {
+  width: 160px;
+  height: auto;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0 1px 5px 1px rgb(255 255 255 / 100%);
+  border-radius: 1rem;
+}
+
+.card > img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.card > p {
+  margin: 0;
+}
